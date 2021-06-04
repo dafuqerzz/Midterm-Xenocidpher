@@ -18,8 +18,11 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="stylesheet" type="text/css" href="">
 
+
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+
 
 </head>
 
@@ -56,18 +59,43 @@
       <li class="nav-item">
         <a class="nav-link " href="http://localhost/wordpress1/contact/">Contact</a>
       </li>
+       <a class="nav-link" href="http://localhost/wordpress1/shop/">Shop <span class="sr-only">(current)</span></a>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <a class="btn btn-outline-success my-2 my-sm-0" href="http://localhost/wordpress1/cart/">Cart</a>
+    
+      
+      
     </form>
   </div>
 </nav>
 <!--Navbar End-->
-<div class="jumbotron text-center">
-  <h1>Welcome To Xenocipher</h1>
-  <p>Learn About Us!</p>
-</div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="http://localhost/wordpress1/shop/">Desktop/Laptops</a>
+      </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <li class="nav-item">
+        <a class="nav-link" href="http://localhost/wordpress1/shop/">Desktop Parts</a>
+      </li>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <li class="nav-item">
+        <a class="nav-link " href="http://localhost/wordpress1/shop/">Mouse/Keyboards</a>
+      </li>
+    </ul>
+    
+    
+      
+      
+    </form>
+  </div>
+</nav>
+
 	</div>
 </body>
 </html>

@@ -1,6 +1,10 @@
 <?php
 /* Template Name: Home*/
 get_header();?>
+<div class="jumbotron text-center">
+  <h1>Welcome To Xenocipher</h1>
+  <p>Learn About Us!</p>
+</div>
 
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 	  <ol class="carousel-indicators">

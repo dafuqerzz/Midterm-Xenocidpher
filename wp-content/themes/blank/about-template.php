@@ -1,6 +1,10 @@
 <?php /* Template Name: About*/
 get_header();
 ?>
+<div class="jumbotron text-center">
+  <h1>Welcome To Xenocipher</h1>
+  <p>Learn About Us!</p>
+</div>
 <div class="container">
   <div class="row">
     <div class="col-sm-4">
